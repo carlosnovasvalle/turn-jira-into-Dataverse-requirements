@@ -1,0 +1,13 @@
+# Las propuestas reales contienen requisitos de clientes: no se suben.
+propuestas/*
+!propuestas/README.md
+
+# Ajustes locales de Claude Code
+.claude/settings.local.json
+
+# Varios
+.DS_Store
+Thumbs.db
+bin/
+obj/
+*.user
