@@ -96,4 +96,8 @@ If you also connect a Dataverse MCP server pointing at a development environment
 
 ## License
 
-No license has been chosen yet. Until one is added, all rights are reserved by the author.
+Copyright 2026 [carlosnovasvalle](https://github.com/carlosnovasvalle).
+
+Licensed under the [Apache License 2.0](LICENSE). You may use, modify and redistribute this project, including commercially, provided you keep the copyright notice, the [NOTICE](NOTICE) file and the license, and state any changes you make.
+
+If this project helps you or your team, a mention or a star is appreciated.
