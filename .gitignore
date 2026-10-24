@@ -11,3 +11,6 @@ Thumbs.db
 bin/
 obj/
 *.user
+__pycache__/
+*.pyc
+requisitos-*.json

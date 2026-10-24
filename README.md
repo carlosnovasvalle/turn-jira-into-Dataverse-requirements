@@ -32,6 +32,8 @@ Orchestrator ──► [human confirmation] ──► Jira: comment + sub-tasks 
 | **Orchestrator** | The flow that splits the work across sub-agents. Here it is a command with fixed steps (a deterministic workflow with an LLM inside each step). | `.claude/commands/analizar-jira.md` |
 | **Project context** | What every agent must know about the client and its conventions. | `CLAUDE.md` |
 
+New to harnesses? Start with [`harness-minimo/`](harness-minimo/): a ~200-line Python script that builds a minimal harness from scratch, so you can see what Claude Code does under the hood before using the orchestrator.
+
 ## Layout
 
 ```
@@ -51,7 +53,8 @@ Orchestrator ──► [human confirmation] ──► Jira: comment + sub-tasks 
 │       ├── plantilla-plugin/              ← conventions + PluginBase.cs + example
 │       ├── plantilla-js-formulario/       ← conventions + web resource example
 │       └── checklist-revision/            ← D365 review criteria
-└── propuestas/                            ← output: one folder per Jira key
+├── propuestas/                            ← output: one folder per Jira key
+└── harness-minimo/                        ← learning example: a harness built by hand
 ```
 
 ## Contracts between agents
